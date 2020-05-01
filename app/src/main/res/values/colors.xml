@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#c2bdbf</color>
+    <color name="colorSplash">#e0ad34</color>
+    <color name="yellow">#e0ad34</color>
+
+    <color name="Background_button_detail_light">#2affffff</color>
+    <color name="Background_button_detail_light1">#7affffff</color>
+    <color name="Background_button_detail">#ccffffff</color>
+    <color name="Background_button_yellow">#cce0ad34</color>
+    <color name="Background_login">#1a000000</color>
+
+
+    <!--<color name="colorBlack">#0000000</color> -->
+</resources>

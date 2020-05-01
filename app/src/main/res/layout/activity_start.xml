@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login1"
+    tools:context=".Start">
+
+    <eightbitlab.com.blurview.BlurView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:text="WELCOME"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_marginTop="-70dp"/>
+
+        <Button
+            android:id="@+id/log_in"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/btn_bg"
+            android:foreground="@color/Background_button_detail_light"
+            android:text="Login"
+            android:textColor="#F3F0F0"
+            android:textColorLink="#FFFFFF" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/btn_bg"
+            android:foreground="@color/Background_button_yellow"
+            android:text="Register"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#FFFFFF"
+            android:textStyle="bold" />
+
+    </eightbitlab.com.blurview.BlurView>
+</LinearLayout>

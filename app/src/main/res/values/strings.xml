@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LIDA</string>
+    <string name="expand">expand</string>
+    <string name="collapse">collapse</string>
+    <string name="state">State</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

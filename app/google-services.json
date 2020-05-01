@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "756353917739",
+    "firebase_url": "https://berantas-covid19-bd026.firebaseio.com",
+    "project_id": "berantas-covid19-bd026",
+    "storage_bucket": "berantas-covid19-bd026.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756353917739:android:699eeea4de507c58dc5b6e",
+        "android_client_info": {
+          "package_name": "com.bany.berantascovid19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756353917739-6ttqm2ijih064cof1bu81kp8bmgrm5u5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bany.berantascovid19",
+            "certificate_hash": "b4cf687b59b92068cec43522a882f2675d6c305b"
+          }
+        },
+        {
+          "client_id": "756353917739-epiqnl8t71bs0qcu03u7pnppuad7nem4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu0RG7NBQei8EQu0flBcPNE_75h3DqzjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756353917739-epiqnl8t71bs0qcu03u7pnppuad7nem4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
