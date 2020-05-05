@@ -1,14 +1,13 @@
 package com.bany.berantascovid19.model;
 
 public class User {
-    private String id, username, fullname, imageurl, bio;
+    private String id, username, fullname, imageurl;
 
-    public User(String id, String username, String fullname, String imageurl, String bio){
+    public User(String id, String username, String fullname, String imageurl){
         this.id = id;
         this.username = username;
         this.fullname = fullname;
         this.imageurl = imageurl;
-        this.bio = bio;
     }
 
     public User(){
@@ -47,11 +46,4 @@ public class User {
         this.imageurl = imageurl;
     }
 
-    public String getBio() {
-        return bio;
-    }
-
-    public void setBio(String bio) {
-        this.bio = bio;
-    }
 }

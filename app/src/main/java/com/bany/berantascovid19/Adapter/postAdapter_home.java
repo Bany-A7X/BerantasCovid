@@ -84,7 +84,7 @@ public class postAdapter_home  extends RecyclerView.Adapter<postAdapter_home.Vie
             }
         });
 
-        holder.comment.setOnClickListener(new View.OnClickListener(){
+        holder.comments.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(mContext, CommentActivity.class);
@@ -102,7 +102,7 @@ public class postAdapter_home  extends RecyclerView.Adapter<postAdapter_home.Vie
     }
 
     public  class  ViewHolder extends RecyclerView.ViewHolder{
-        public ImageView image_profile, post_image, like, comment, save;
+        public ImageView image_profile, post_image, like, comment;
         public TextView username, likes, publisher, description, comments;
 
         public ViewHolder(@NonNull View itemView){
@@ -113,7 +113,6 @@ public class postAdapter_home  extends RecyclerView.Adapter<postAdapter_home.Vie
             comments = itemView.findViewById(R.id.comments);
             like = itemView.findViewById(R.id.like);
             comment = itemView.findViewById(R.id.comment);
-            save = itemView.findViewById(R.id.save);
             username = itemView.findViewById(R.id.username);
             likes = itemView.findViewById(R.id.likes);
             publisher = itemView.findViewById(R.id.publisher);
@@ -127,7 +126,7 @@ public class postAdapter_home  extends RecyclerView.Adapter<postAdapter_home.Vie
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                comments.setText("View All" + dataSnapshot.getChildrenCount()+ " Comments");
+                comments.setText("View " + dataSnapshot.getChildrenCount()+ " Comments");
             }
 
             @Override

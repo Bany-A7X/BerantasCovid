@@ -24,8 +24,8 @@ public class Home_Fragment extends Fragment {
     private RecyclerView recyclerView;
     private postAdapter_home postAdapter;
     private List<post_home> postHomeList;
-
     private List<String> followingList;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -42,6 +42,7 @@ public class Home_Fragment extends Fragment {
         recyclerView.setAdapter(postAdapter);
 
         checkFollowing();
+        readPosts();
 
         return view;
     }

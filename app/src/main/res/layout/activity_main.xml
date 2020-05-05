@@ -26,4 +26,20 @@
             android:background="?android:attr/windowBackground"
             app:menu="@menu/bottom_nav"/>
     </com.google.android.material.appbar.AppBarLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="70dp"
+            android:backgroundTint="@color/yellow"
+            android:src="@drawable/ic_add"
+            android:tint="#FFFFFF"
+            app:borderWidth="0dp"
+            app:fabSize="normal"
+            android:onClick="fab_Button"/>
+
 </RelativeLayout>

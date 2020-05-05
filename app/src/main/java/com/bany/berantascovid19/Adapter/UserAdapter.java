@@ -1,16 +1,13 @@
 package com.bany.berantascovid19.Adapter;
 
 import android.content.Context;
-import android.content.SharedPreferences;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
-import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.RecyclerView;
-import com.bany.berantascovid19.Fragment.Profile_Fragment;
 import com.bany.berantascovid19.R;
 import com.bany.berantascovid19.model.User;
 import com.bumptech.glide.Glide;
@@ -54,18 +51,6 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
         if(user.getId().equals(firebaseUser.getUid())){
             viewHolder.btn_follow.setVisibility(View.GONE);
         }
-
-        viewHolder.itemView.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
-                SharedPreferences.Editor editor = mContext.getSharedPreferences("PREPS", Context.MODE_PRIVATE).edit();
-                editor.putString("profileid", user.getId());
-                editor.apply();
-
-                ((FragmentActivity)mContext).getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new Profile_Fragment()).commit();
-            }
-        });
 
         viewHolder.btn_follow.setOnClickListener(new View.OnClickListener(){
             @Override

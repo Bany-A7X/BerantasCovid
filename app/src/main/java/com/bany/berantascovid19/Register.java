@@ -2,7 +2,6 @@ package com.bany.berantascovid19;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +11,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -91,7 +89,6 @@ public class Register extends AppCompatActivity {
                     hashMap.put("id", user_id);
                     hashMap.put("username", username.toLowerCase());
                     hashMap.put("fullname", fullname);
-                    hashMap.put("bio", "");
                     hashMap.put("imageurl","https://firebasestorage.googleapis.com/v0/b/berantas-covid19-bd026.appspot.com/o/avatar.png?alt=media&token=d0cbd811-9b9c-473e-8a7d-9ee5352ec641");
 
                     reference.setValue(hashMap).addOnCompleteListener(new OnCompleteListener<Void>() {

@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     tools:context=".Fragment.Notfication_Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Notification" />
+        android:layout_height="wrap_content"
+        app:videoId="OZcRD9fV7jo"
+        app:autoPlay="false"
+        app:showYouTubeButton="false"
+        app:showFullScreenButton="false"/>
 
-</FrameLayout>
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="BtN-goy9VOY"
+        app:autoPlay="false"
+        app:showYouTubeButton="false"
+        app:showFullScreenButton="false"
+        android:layout_marginTop="10dp"/>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="WBkZ0fE6zw0"
+        app:autoPlay="false"
+        app:showYouTubeButton="false"
+        app:showFullScreenButton="false"
+        android:layout_marginTop="10dp"/>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="TujQFuzMjes"
+        app:autoPlay="false"
+        app:showYouTubeButton="false"
+        app:showFullScreenButton="false"
+        android:layout_marginTop="10dp"/>
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:videoId="mczgv9ug2YY"
+        app:autoPlay="false"
+        app:showYouTubeButton="false"
+        app:showFullScreenButton="false"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
