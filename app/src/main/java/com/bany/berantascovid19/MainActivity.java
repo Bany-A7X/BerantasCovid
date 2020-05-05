@@ -3,13 +3,11 @@ package com.bany.berantascovid19;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-
 import com.bany.berantascovid19.Fragment.Home_Fragment;
 import com.bany.berantascovid19.Fragment.Notfication_Fragment;
 import com.bany.berantascovid19.Fragment.Profile_Fragment;
@@ -60,10 +58,6 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.nav_search:
                             fab_add.setVisibility(View.INVISIBLE);
                             selectedFragment = new SearchFragment();
-                            break;
-                        case R.id.nav_add:
-                            selectedFragment = null;
-                            startActivity(new Intent(MainActivity.this, Post_Activity.class));
                             break;
                         case R.id.nav_youtube:
                             fab_add.setVisibility(View.INVISIBLE);
