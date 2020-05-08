@@ -34,7 +34,7 @@
         android:background="@drawable/button_background"
         android:foreground="@color/Background_button_detail_light"
         android:padding="10dp"
-        android:textColor="#00EFE3E3"
+        android:textColor="#FFFFFF"
         android:textColorHint="#B3EAE0E0"/>
 
     <ImageView
@@ -56,7 +56,7 @@
         android:foreground="@color/Background_button_detail_light"
         android:inputType="textPassword"
         android:padding="10dp"
-        android:textColor="#00EFE3E3"
+        android:textColor="#FFFFFF"
         android:textColorHint="#B3EAE0E0"/>
 
     <Button
